@@ -3,13 +3,14 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/userRoutes.js";
 import authRouter from "./routes/authRoute.js";
+import cors from "cors";
 dotenv.config();
 const app = express();
 
 //middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(cors());
 //apis
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
