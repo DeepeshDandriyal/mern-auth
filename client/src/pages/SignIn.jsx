@@ -31,8 +31,9 @@ const SignIn = () => {
         body: JSON.stringify(formData),
       });
       const data = await res.json();
-      dispatch(signInSuccess(data));
+
       if (res.status === 200) {
+        dispatch(signInSuccess(data));
         navigate("/");
         alert("user logged in");
       } else {
