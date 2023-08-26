@@ -5,22 +5,22 @@ const About = () => {
         About
       </h1>
       <p className="mb-3 text-slate-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
-        aliquid amet expedita rem commodi sunt perferendis in dolore, facilis
-        voluptas molestiae repudiandae veritatis nesciunt omnis repellendus
-        illum voluptates iusto?
+        Hello there! I'm <span className="text-red-600 text-lg">Deepesh</span>,
+        a passionate and dedicated full stack developer. With a keen interest in
+        crafting seamless digital experiences, I've immersed myself in the world
+        of web development to create innovative and user-centered solutions.
       </p>
       <p className="mb-3 text-slate-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
-        aliquid amet expedita rem commodi sunt perferendis in dolore, facilis
-        voluptas molestiae repudiandae veritatis nesciunt omnis repellendus
-        illum voluptates iusto?
-      </p>
-      <p className="mb-3 text-slate-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
-        aliquid amet expedita rem commodi sunt perferendis in dolore, facilis
-        voluptas molestiae repudiandae veritatis nesciunt omnis repellendus
-        illum voluptates iusto?
+        Auth App is an advanced authentication application built using the MERN
+        stack, delivering top-notch security and user experience. Users can
+        easily sign up and log in through both traditional email and password
+        methods, as well as via Google authentication powered by Firebase.
+        Passwords are encrypted for utmost security, while profile management
+        empowers users to keep their information current. The app also supports
+        seamless account deletion. With React and Tailwind CSS on the front end,
+        and Node.js, Express.js, and MongoDB on the back end, the project
+        embodies modern development practices to ensure robustness and
+        efficiency.
       </p>
     </div>
   );
